@@ -1,0 +1,23 @@
+# Env and secrets
+.env
+data/credentials.json
+data/gmail_token.json
+*.token.json
+
+# Data (metrics/surveys can be committed if desired)
+data/productivity_metrics.json
+data/satisfaction_surveys.json
+data/inbox_zero_history.json
+data/follow_ups.json
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# IDE
+.idea/
+.vscode/
